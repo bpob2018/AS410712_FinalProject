@@ -3,7 +3,7 @@
 Small data mining tool that simplifies Gene Ontology (GO) knowledgeable searches for users.  Gene Ontology knowledgeable can be found at http://geneontology.org/ 
 
 Source code can be obtained here:
-
+https://github.com/bpob2018/AS410712_FinalProject
 
 * REQUIREMENTS *
 
