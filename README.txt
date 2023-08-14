@@ -14,8 +14,10 @@ python3 required to be installed on system.
 Storage is minimal.  Data is stored in bpoblet1_final database on bfx3 JHU server, under 2 tables (gene_info and annotation).
 
 * DETAILED USAGE *
+
+0. Please clear your browser's cache.  I recommend using Google Chrome.
  
-1. While on VPN, navigate to http://bfx3.aap.jhu.edu/bpoblet1/final/go_simplify.html 
+1. While on VPN, navigate to http://bfx3.aap.jhu.edu/bpoblet1/AS410712_FinalProject/go_simplify.html
 
 2. Enter gene/gene product.
 
