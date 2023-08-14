@@ -1,0 +1,55 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-size: 3rem
+}
+
+h2 {
+  clear:left;
+  height:25px;
+  margin-top:60px;
+  margin-right:20px;
+  margin-left:20px;
+ }
+
+label {
+  color: navy;
+  margin-left: 20px;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin: 4px 15px;
+  cursor: pointer;
+}
+
+table, td {
+  border-spacing: 10px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  border:1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  border-spacing: 10px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: navy ;
+  border:2px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+  border-collapse: collapse
+}
+

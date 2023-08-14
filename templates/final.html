@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/mystyle.css">
+<meta charset="utf-8" />
+<title>GO Simplify</title>
+</head>
+<body id="home">
+<h1>Final - GO Simplify</h1>
+<table style="width:100%">
+
+<h2> AmiGO 2 Annotations search for {{ geneP }} and organism {{ organism }} </h2>
+    <tr>
+      <th> gene product symbol </th>
+      <th> gene product name </th>
+      <th> organism </th>
+      <th> GO class </th>
+    </tr>
+
+    {% for f in fastaInfo %}
+    <tr>
+     <td> {{ f.gpn  }} </td>
+     <td> {{ f.gps }} </td>
+     <td> {{ f.organism }} </td>
+     <td> {{ f.go_class }} </td>
+    </tr>
+    {% endfor%}
+</table>
+
+<h2> All genes and gene products annotated to {{ go_c }} for organism {{ organism }} </h2>
+<table style="width:100%">
+    <tr>
+      <th> gene product symbol </th>
+      <th> gene product name </th>
+      <th> organism </th>
+      <th> GO class </th>
+    </tr>
+
+    {% for f in annInfo %}
+    <tr>
+     <td> {{ f.gpn  }} </td>
+     <td> {{ f.gps }} </td>
+     <td> {{ f.organism }} </td>
+     <td> {{ f.go_class }} </td>
+    </tr>
+    {% endfor%}
+</table>
+
+</body>
+</html>

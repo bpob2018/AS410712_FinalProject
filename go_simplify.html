@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/mystyle.css">
+<title>GO Simplify</title>
+</head>
+<body id="home">
+<h1>Final - GO Simplify </h1>
+
+<form name='go_simplify' method='post' action='./go.cgi'>
+<!-- form elements go here -->
+<label for="gene">Enter gene/gene product: </label><input id="gene" type="text" name="gene" placeholder="Example: insulin">
+
+
+<label for="typeOfOrg">Organism: </label>
+<select name="typeOfOrg"  id="typeOfOrg">
+  <option value="Bos taurus">Bos taurus</option>
+    <option value="Canis lupus familiaris">Canis lupus familiaris</option>
+    <option value="Equus caballus">Equus caballus</option>
+    <option value="Gorilla gorilla gorilla">Gorilla gorilla gorilla</option>
+    <option value="Macaca mulatta">Macaca mulatta</option>
+    <option value="Ornithorhynchus anatinus">Ornithorhynchus anatinus</option>
+    <option value="Oryzias latipes">Oryzias latipes</option>
+    <option value="Pan troglodytes">Pan troglodytes</option>
+    <option value="Strongylocentrotus purpuratus">Strongylocentrotus purpuratus</option>
+</select><br>
+
+<label for="goClass"> GO Class: </label>
+    <select name="goClass" id="goClass">
+        <option value="positive regulation of insulin secretion">positive regulation of insulin secretion</option>
+      <option value="chloride transmembrane transport">chloride transmembrane transport</option>
+      <option value="transcription cis-regulatory region binding">transcription cis-regulatory region binding</option>
+    </select>
+
+<!-- Script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src='js/script.js' type="text/javascript"></script>
+
+<br><input type="submit" value="Submit"><br>
+</form>
+
+</body>
+</html>
